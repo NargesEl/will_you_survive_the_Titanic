@@ -9,7 +9,7 @@ I used the Titanic passenger list to build a predictive model that calculates th
 
 Results are with a 81% accuracy. 
 
-Frist, I explored the data (Exploratory Data Analysis.ipynb) and then trained a logistic regression classification model. I also did some feature engineering, like one-hot encoding and calculated the train and test accuracy. Since not all passangers have their age recorded in the data, I tried several methodes to fill in the gaps. I dropped the rows with the age missing, replaced nan with the mean of the age column, and tried the median as well. Eventually, I used the mean of the age column to fill in the nan. I also trained a random forest classifiction model, and used the model and feature engineering that gave the highest accuracy to predict survival of a new passanger.
+Frist, I explored the data (Exploratory Data Analysis.ipynb) and then trained a logistic regression classification model. I also did some feature engineering, like one-hot encoding and calculated the train and test accuracy. Since not all passangers have their age recorded in the data, I tried several methodes to fill in the gaps. I dropped the rows with the age missing, replaced nan with the mean of the age column, and tried the median as well. Eventually, I used the mean of the age column to fill in the nan. I also trained a decision tree classification model and a random forest classifiction model, and used the model and feature engineering that gave the highest accuracy to predict survival of a new passanger.
 
 Once the Jupyter Notebook is run, input fields will appear at the bottom.
 
